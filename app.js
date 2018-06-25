@@ -39,5 +39,9 @@ if(command === "generate") {
     message.author.send(altgen());
   }
 });
-
+if(command === "deneme") {
+  message.channel.send("**bedirhan**");
+    message.author.send(altgen());
+  }
+});
   client.login(config.token);
