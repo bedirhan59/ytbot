@@ -44,4 +44,5 @@ if(command === "deneme") {
     message.author.send(altgen());
   }
 });
+});
   client.login(config.token);
